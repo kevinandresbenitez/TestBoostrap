@@ -16,10 +16,10 @@ function removePageLoader(){
     let pageLoader = document.querySelector('.pageloader-container');
     pageLoader.classList.add('hidde-pageloader');
     setTimeout(()=>{
-        // Activo el scroll visual
-        document.getElementsByTagName('body')[0].style.overflowY = 'auto';
         document.body.removeChild(pageLoader)
     },1000)
+    // Activo el scroll visual
+    document.getElementsByTagName('body')[0].style.overflowY = 'auto';
 
 }
 
