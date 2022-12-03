@@ -1,0 +1,28 @@
+@keyframes showText__Animation{
+    from{
+        opacity: 0;
+        transform:translateX(20px);
+    }
+}
+@keyframes hiddeText__Animation{
+    to{
+        opacity: 0;
+        transform:translateX(20px);
+    }
+}
+
+@keyframes showCard__Animation{
+    from{
+        opacity: 0;
+        transform:translateX(20px);
+    }
+}
+
+@keyframes hiddeCard__Animation{
+    to{
+        opacity: 0;
+        transform:translateX(20px);
+    }
+}
+
+
